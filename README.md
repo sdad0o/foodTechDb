@@ -70,21 +70,6 @@ To view your data or perform operations, you can run the following types of quer
 
 ---
 
-## Backup & Restore
-
-You can back up and restore the database using **MySQL Workbench** or the **mysqldump** command:
-
-### Backup
-```bash
-mysqldump -u username -p restaurant_db > restaurant_db_backup.sql
-```
-
-### Restore
-```bash
-mysql -u username -p restaurant_db < restaurant_db_backup.sql
-```
-
----
 
 ## Technologies Used
 
